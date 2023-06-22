@@ -1,0 +1,25 @@
+
+const form = document.getElementById('form');
+const username = document.getElementById('username');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
+const cpassword = document.getElementById('cpassword');
+
+
+form.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    validateInputs();
+})
+
+function validateInputs({
+    const usernameVal = username.value.trim();
+    const emailVal = email.value.trim();
+    const passwordVal = password.value.trim();
+    const cpasswordVal = cpassword.value.trim();
+  
+})
+function setError(element,message){
+    const inputGroup = element.parentElement;
+    const errorElement = inputGroup.querySelector('.error')
+}
+
